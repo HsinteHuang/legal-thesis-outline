@@ -9,6 +9,8 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 ![Status](https://img.shields.io/badge/status-active-success)
 
+> 本開源內容是「論文寫作方法與AI輔助」課程之教材，本課程開設於中正大學高階法律碩士專班。
+
 > 一套專為法律系碩士生設計的 AI 輔助論文大綱審查工具，依據「緒論→理論→制度→比較法→檢討→結論」的學術邏輯，逐層引導修正章節結構。
 
 ---
