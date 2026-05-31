@@ -1,13 +1,13 @@
 # 🏛️ 法學論文大綱審查工具｜Legal Thesis Outline Reviewer
 
-![Profile views](https://komarev.com/ghpvc/?username=mjib007&label=Profile%20views&color=4c8eda&style=flat)
-[![Stars](https://img.shields.io/github/stars/mjib007/legal-thesis-outline?style=flat&color=yellow)](https://github.com/mjib007/legal-thesis-outline/stargazers)
-[![Forks](https://img.shields.io/github/forks/mjib007/legal-thesis-outline?style=flat&color=blue)](https://github.com/mjib007/legal-thesis-outline/network/members)
-![AI](https://img.shields.io/badge/AI-Claude%20(Anthropic)-blueviolet)
-![Platform](https://img.shields.io/badge/Platform-claude.ai%20%7C%20ChatGPT%20%7C%20Gemini-orange)
+[![Stars](https://img.shields.io/github/stars/HsinteHuang/legal-thesis-outline?style=flat&color=yellow)](https://github.com/HsinteHuang/legal-thesis-outline/stargazers)
+[![Forks](https://img.shields.io/github/forks/HsinteHuang/legal-thesis-outline?style=flat&color=blue)](https://github.com/HsinteHuang/legal-thesis-outline/network/members)
+![AI](https://img.shields.io/badge/AI-Claude%20%7C%20Gemini%20(Anthropic%20%7C%20Google)-blueviolet)
+![Platform](https://img.shields.io/badge/Platform-claude.ai%20%7C%20ChatGPT%20%7C%20Gemini%20Gem-orange)
 ![Language](https://img.shields.io/badge/Language-繁體中文-red)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 ![Status](https://img.shields.io/badge/status-active-success)
+[![Forked from](https://img.shields.io/badge/Forked%20from-mjib007%2Flegal--thesis--outline-lightgrey)](https://github.com/mjib007/legal-thesis-outline)
 
 > 本開源內容是「論文寫作方法與AI輔助」課程之教材，本課程開設於中正大學高階法律碩士專班。
 
@@ -34,6 +34,7 @@
 |------|------|----------|
 | `SKILL_legal_thesis_outline_updated.md` | Claude 專案 SKILL 版 | Claude.ai 專案功能 |
 | `legal_thesis_outline_prompt.md` | 通用 Prompt 版 | ChatGPT、Gemini、Claude 等所有 AI 對話介面 |
+| `gemini_gem_prompt.md` | Gemini Gem 專用版 | Google Gemini Gem（含安全規則與角色鎖定） |
 | `README.md` | 本說明文件 | — |
 
 ---
@@ -65,6 +66,25 @@
 4. 提供資料後，即開始逐步審查
 
 > ⚠️ 每次**新對話**都需要重新貼入，對話結束後不會保留設定。
+
+---
+
+### 方法三：Gemini Gem 版（推薦 Google Gemini 用戶使用）
+
+適合已建立 Gemini Gem 的使用者，設定一次後即可重複使用，並內建安全規則防止角色逸脫。
+
+**步驟：**
+1. 進入 [Google Gemini](https://gemini.google.com)，點選「Gems」→「建立新 Gem」
+2. 開啟 `gemini_gem_prompt.md`，複製全部內容
+3. 貼入 Gem 的「指示」欄位，儲存
+4. 之後直接在該 Gem 對話，提供論文題目與大綱即可開始審查
+
+**與通用 Prompt 版的差異：**
+- 加入 `<Security_Rules>`：防止使用者套取系統指令，確保角色鎖定
+- 加入 `<Interaction_Rules>`：強制逐步引導，不得一次列出所有建議
+- 針對 Gemini Gem 環境優化格式與指令結構
+
+> ⚠️ 此版本為 Gemini Gem 格式設計，直接貼入一般對話框亦可使用，但最佳體驗需建立 Gem。
 
 ---
 
@@ -132,6 +152,18 @@
 
 ---
 
+## 👥 貢獻者與版權
+
+| 角色 | 姓名 | 貢獻 |
+|------|------|------|
+| 原作者 | Jackie Chien © 2026 | 工具核心設計、SKILL 版、通用 Prompt 版 |
+| 改作者 | Hsinte Huang © 2026 | Gemini Gem 專用版（含安全規則與角色鎖定機制） |
+
+本 Fork 基於原始專案 [mjib007/legal-thesis-outline](https://github.com/mjib007/legal-thesis-outline) 進行擴充，依 MIT License 授權條款改作並重新發布。
+
+---
+
 ## 🔗 相關專案
 
+- [📖 原始專案](https://github.com/mjib007/legal-thesis-outline) — Jackie Chien 的原版工具
 - [🎓 刑法申論題 AI 教練](https://github.com/mjib007/legal-essay-tutor)

@@ -153,7 +153,14 @@
 - **初步架構的章節**：若某章內容尚不確定（如外國法制研究不足），應在標題後加註「（初步架構，待補充）」，提醒後續補強。
 - **碩士論文定位**：第二章的理論深度以「作為評價工具」為目標，不需要像博士論文一樣建立完整理論體系。
 - **比較法的功能**：外國制度介紹的目的是「借鏡」，不是「移植」。第四章的小結應明確點出對我國的啟示，供第五章引用。
--e 
 ---
 
 *本 Prompt 由 legal-thesis-outline SKILL 轉換而來，適用於 ChatGPT、Gemini、Claude 等各類 AI 對話介面。*
+
+---
+
+## 版權聲明
+
+原作者：Jackie Chien（Copyright © 2026）
+專案來源：https://github.com/mjib007/legal-thesis-outline
+授權條款：MIT License
