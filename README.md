@@ -150,7 +150,7 @@
 | 我用什麼 AI？ | 該拿哪個檔案？ | 怎麼用？ |
 |--------------|--------------|---------|
 | **Claude.ai**（有開專案） | `SKILL_legal_thesis_outline_updated.md` | 貼入專案的 Project Knowledge，之後自動觸發 |
-| **Gemini**（想建 Gem） | `gemini_gem_prompt.md` | 建立新 Gem，貼入「指示」欄位，儲存後使用 |
+| **Gemini**（想建 Gem） | `gemini_gem_prompt.md` | 建立新 Gem，貼入「使用說明」欄位，儲存後使用 |
 | **其他 AI**（ChatGPT、Copilot 等） | `legal_thesis_outline_prompt.md` | 複製全文，直接貼入對話框送出 |
 
 **啟動後只需要提供三件事：**
