@@ -15,49 +15,6 @@
 
 ---
 
-## ⚡ 懶人包：30 秒上手
-
-| 我用什麼 AI？ | 該拿哪個檔案？ | 怎麼用？ |
-|--------------|--------------|---------|
-| **Claude.ai**（有開專案） | `SKILL_legal_thesis_outline_updated.md` | 貼入專案的 Project Knowledge，之後自動觸發 |
-| **Gemini**（想建 Gem） | `gemini_gem_prompt.md` | 建立新 Gem，貼入「指示」欄位，儲存後使用 |
-| **其他 AI**（ChatGPT、Copilot 等） | `legal_thesis_outline_prompt.md` | 複製全文，直接貼入對話框送出 |
-
-**啟動後只需要提供三件事：**
-1. 論文題目
-2. 研究動機與核心爭議
-3. 現有大綱（有幾章貼幾章）
-
-AI 會一步一步問你，不用一次準備齊全。
-
----
-
-### 🖥️ 以 Claude Code 或 Antigrvity 為例的完整操作流程
-
-**Step 1｜讀取原始庫**
-```
-https://github.com/mjib007/legal-thesis-outline
-先讀取此庫
-```
-
-**Step 2｜載入 Prompt**
-```
-先讀取 legal_thesis_outline_prompt.md
-```
-
-**Step 3｜開始審查**
-```
-只要把研究大綱傳給你嗎？
-```
-> 可以！只貼大綱即可，AI 會主動詢問論文題目與研究動機等補充資訊。
-
-**Step 4｜貼上大綱**
-```
-把大綱複製貼上
-```
-
----
-
 ## ✨ 功能特色
 
 - 📐 **架構邏輯檢查**：自動偵測章節順序是否符合法學論文標準框架
@@ -185,6 +142,49 @@ https://github.com/mjib007/legal-thesis-outline
 | 第一層（章） | 章的數量、順序、章名焦點、比較法位置 |
 | 第二層（節） | 節的主題服務性、跨章錯置、小結位置、章名與節次對應、節名討論對象標示、制度介紹全貌先於細節 |
 | 章節對話關係 | 理論→檢討的引用、比較法→修法的銜接、第五章過渡節 |
+
+---
+
+## ⚡ 懶人包：30 秒上手
+
+| 我用什麼 AI？ | 該拿哪個檔案？ | 怎麼用？ |
+|--------------|--------------|---------|
+| **Claude.ai**（有開專案） | `SKILL_legal_thesis_outline_updated.md` | 貼入專案的 Project Knowledge，之後自動觸發 |
+| **Gemini**（想建 Gem） | `gemini_gem_prompt.md` | 建立新 Gem，貼入「指示」欄位，儲存後使用 |
+| **其他 AI**（ChatGPT、Copilot 等） | `legal_thesis_outline_prompt.md` | 複製全文，直接貼入對話框送出 |
+
+**啟動後只需要提供三件事：**
+1. 論文題目
+2. 研究動機與核心爭議
+3. 現有大綱（有幾章貼幾章）
+
+AI 會一步一步問你，不用一次準備齊全。
+
+---
+
+### 🖥️ 以 Claude Code 或 Antigrvity 為例的完整操作流程
+
+**Step 1｜讀取原始庫**
+```
+https://github.com/mjib007/legal-thesis-outline
+先讀取此庫
+```
+
+**Step 2｜載入 Prompt**
+```
+先讀取 legal_thesis_outline_prompt.md
+```
+
+**Step 3｜開始審查**
+```
+只要把研究大綱傳給你嗎？
+```
+> 可以！只貼大綱即可，AI 會主動詢問論文題目與研究動機等補充資訊。
+
+**Step 4｜貼上大綱**
+```
+把大綱複製貼上
+```
 
 ---
 
