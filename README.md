@@ -32,7 +32,7 @@ AI 會一步一步問你，不用一次準備齊全。
 
 ---
 
-### 🖥️ 以 Claude Code 為例的完整操作流程
+### 🖥️ 以 Claude Code 或 Antigrvity 為例的完整操作流程
 
 **Step 1｜讀取原始庫**
 ```
